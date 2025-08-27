@@ -93,7 +93,7 @@ const Banner = () => {
         </div>
 
         {/* Scroll Down Arrow */}
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20 hidden md:block">
           <svg
             className="w-6 h-6 text-white animate-bounce"
             fill="none"
