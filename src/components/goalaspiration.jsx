@@ -17,7 +17,7 @@ const GoalAspiration = () => {
           <p>
             As a Full-Stack Developer, I am dedicated to creating web
             applications that are both intuitive and efficient. My focus is on
-            developing user-friendly interfaces that provide a seamless
+            developing user-friendly interfaces that provide an easy
             experience for all users.
           </p>
           <p>

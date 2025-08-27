@@ -1,31 +1,43 @@
-import React from "react";
 import Banner from "./profilebanner";
-import GoalAspiration from "./goalaspiration";
-import ContactCard from "./ContactCard";
+import ProfileSection from "./ProfileSection";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 const Profile = () => {
+  
   return (
     <div className="text-white">
       {/* Full-screen Banner */}
-      <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+      <section className="relative min-h-max items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
         <Banner />
       </section>
 
-      {/* Full-screen Contact + Goal */}
-      <section className="h-screen flex items-center justify-center bg-slate-800 py-20">
-        <div className="flex flex-col md:flex-row gap-6 w-full max-w-6xl px-8">
-          <div className="md:w-1/2">
-            <ContactCard />
-          </div>
-          <div className="md:w-1/2">
-            <GoalAspiration />
-          </div>
+      {/* Profile Section */}
+      <section className="py-20 bg-slate-800 items-center">
+        <div className="max-w-7xl px-1 mx-auto">
+          <ProfileSection />
         </div>
       </section>
 
-      {/* Full-screen About Me */}
-      <section className="h-screen flex items-center justify-center bg-slate-900">
-        <div className="max-w-6xl px-8">
+      {/* Skills */}
+      <section className="py-20 items-center justify-center bg-slate-900 min-h-screen">
+        <div className="max-w-6xl px-8 mx-auto">
+          <Skills />
+        </div>
+      </section>
+
+      {/* Projects */}
+      <section id="projects" className="py-20 bg-slate-800 items-center">
+        <div className="max-w-6xl px-8 mx-auto">
+          <Projects />
+        </div>
+      </section>
+
+      {/* Contact Me */}
+      <section id="contact" className="py-20 bg-slate-900 items-center">
+        <div className="max-w-6xl px-8 mx-auto">
+          <Contact />
         </div>
       </section>
     </div>
