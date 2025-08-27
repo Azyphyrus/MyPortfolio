@@ -18,7 +18,7 @@ const ProfileTitle = styled.p`
 
 const Banner = () => {
   return (
-    <div className="mt-2">
+    <div>
       <div className="min-h-screen overflow-hidden relative border border-black border-opacity-60 bg-black bg-opacity-60">
         <div className="bg-animation absolute inset-0 z-0">
           <div id="stars"></div>
