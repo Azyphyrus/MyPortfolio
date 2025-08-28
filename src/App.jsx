@@ -15,14 +15,14 @@ function App() {
       </section>
 
       {/* Profile Section */}
-      <section className="py-20 bg-slate-800 items-center">
+      <section id="profile" className="py-20 bg-slate-800 items-center">
         <div className="max-w-7xl px-1 mx-auto">
           <ProfileSection />
         </div>
       </section>
 
       {/* Skills */}
-      <section className="py-20 items-center justify-center bg-slate-900 min-h-screen">
+      <section className="py-20 items-center justify-center bg-slate-900">
         <div className="max-w-6xl px-8 mx-auto">
           <Skills />
         </div>

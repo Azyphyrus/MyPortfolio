@@ -98,14 +98,14 @@ const Skills = () => {
         {/* Tabs */}
         <div className="mt-6 flex justify-center gap-4">
           <button
-            className={`px-4 py-2 rounded-full font-medium ${activeTab === "technical" ? "bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300" 
+            className={`px-4 py-2 rounded-full font-medium border border-white ${activeTab === "technical" ? "bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300" 
       : "bg-slate-700 text-slate-300"}`}
             onClick={() => setActiveTab("technical")}
           >
             Technical Skills
           </button>
           <button
-            className={`px-4 py-2 rounded-full font-medium ${activeTab === "personal" ? "bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300" 
+            className={`px-4 py-2 rounded-full font-medium border border-white ${activeTab === "personal" ? "bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transform hover:scale-105 transition-all duration-300" 
       : "bg-slate-700 text-slate-300"}`}
             onClick={() => setActiveTab("personal")}
           >
