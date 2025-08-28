@@ -5,6 +5,8 @@ import ProfileSection from "@/components/ProfileSection";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import WorkExperience from "./components/WorkExperience";
+import EducationCertifications from "./components/EducationCertifications";
 
 function App() {
   return (
@@ -32,6 +34,20 @@ function App() {
       <section id="projects" className="py-20 bg-slate-800 items-center">
         <div className="max-w-6xl px-8 mx-auto">
           <Projects />
+        </div>
+      </section>
+
+      {/* WorkExp */}
+      <section id="projects" className="py-20 bg-slate-900 items-center">
+        <div className="max-w-6xl px-8 mx-auto">
+          <WorkExperience />
+        </div>
+      </section>
+
+      {/* Educ and Cert */}
+      <section id="projects" className="py-20 bg-slate-800 items-center">
+        <div className="max-w-6xl px-8 mx-auto">
+          <EducationCertifications />
         </div>
       </section>
 
